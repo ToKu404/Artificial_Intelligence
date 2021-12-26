@@ -9,6 +9,7 @@ def insertionSort(A):
             A[i+1] = A[i]
             i = i - 1
         A[i+1] = key
-    print(A)
+    return A
 
-insertionSort(input)
+sorted = insertionSort(input)
+print(sorted)
